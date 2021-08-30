@@ -1,0 +1,20 @@
+.cardsList {
+    width: 100%;
+    height: 100%;
+
+    .cardsHeading {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+
+        button {
+            padding: 15px;
+        }
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
